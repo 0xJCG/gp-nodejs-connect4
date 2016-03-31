@@ -1,0 +1,10 @@
+var connected = 'Connected. Waiting for another player.';
+var disconnected = 'Your opponent has disconnected.';
+var playersConnectedYourTurn = 'Players Connected. It\'s your turn.';
+var playersConnectedNotYourTurn = 'Players Connected. Opponent\'s turn.';
+var yourTurn = 'It\'s your turn.';
+var notYourTurn = 'Opponent\'s turn.';
+var youWin = 'You won. Opponent\'s turn.';
+var youLose = 'You lost. It\'s your turn.';
+var tie = 'Tie game.';
+var inactive = 'Your has been inactive. Please, reaload.';

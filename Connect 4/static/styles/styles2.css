@@ -1,0 +1,44 @@
+.box {
+ border: 2px solid #ccc;
+ -moz-border-radius: 10px;
+ width: 60px;
+ background-color: #CCC;
+ height: 60px;
+ padding: 5px;
+}
+
+table {
+	
+	text-align: center;
+	margin: 0 auto;
+}
+
+#chat {
+	/*position: fixed;*/
+text-align: center;
+	margin: 0 auto;
+}
+
+#chatlog {
+	border: 1px solid black;
+	height: 250px;
+	/*padding: 5px;*/
+	white-space: nowrap;
+	overflow: auto;
+	width: 250px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#message_input {
+	height: 30px;
+	width: 250px;
+}
+
+.game {
+	
+}
+
+.clear {
+	clear: both;
+}

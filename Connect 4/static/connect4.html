@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Connect 4</title>
+		<link rel="stylesheet" type="text/css" href="styles/pc.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/frontend.js"></script>
+		<script type="text/javascript" src="socket.io/socket.io.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="title">Connect 4</h1>
+			<img src="images/bet365.gif" class="pub" />
+			<div class="clear"></div>
+			<div id="game">
+				<p id="countdown"></p>
+				<div class="p1-score">0</div>
+				<!--<div class="scores">
+					<div class="p1-score">0</div>
+					<div class="p2-score">0</div>
+				</div>-->
+				<div id="board">
+					<table>
+						<tbody>
+							<tr>
+								<td data-column="0" data-row="0" class="box"></td>
+								<td data-column="1" data-row="0" class="box"></td>
+								<td data-column="2" data-row="0" class="box"></td>
+								<td data-column="3" data-row="0" class="box"></td>
+								<td data-column="4" data-row="0" class="box"></td>
+								<td data-column="5" data-row="0" class="box"></td>
+								<td data-column="6" data-row="0" class="box"></td>
+							</tr>
+							<tr>
+								<td data-column="0" data-row="1" class="box"></td>
+								<td data-column="1" data-row="1" class="box"></td>
+								<td data-column="2" data-row="1" class="box"></td>
+								<td data-column="3" data-row="1" class="box"></td>
+								<td data-column="4" data-row="1" class="box"></td>
+								<td data-column="5" data-row="1" class="box"></td>
+								<td data-column="6" data-row="1" class="box"></td>
+							</tr>
+							<tr>
+								<td data-column="0" data-row="2" class="box"></td>
+								<td data-column="1" data-row="2" class="box"></td>
+								<td data-column="2" data-row="2" class="box"></td>
+								<td data-column="3" data-row="2" class="box"></td>
+								<td data-column="4" data-row="2" class="box"></td>
+								<td data-column="5" data-row="2" class="box"></td>
+								<td data-column="6" data-row="2" class="box"></td>
+							</tr>
+							<tr>
+								<td data-column="0" data-row="3" class="box"></td>
+								<td data-column="1" data-row="3" class="box"></td>
+								<td data-column="2" data-row="3" class="box"></td>
+								<td data-column="3" data-row="3" class="box"></td>
+								<td data-column="4" data-row="3" class="box"></td>
+								<td data-column="5" data-row="3" class="box"></td>
+								<td data-column="6" data-row="3" class="box"></td>
+							</tr>
+							<tr>
+								<td data-column="0" data-row="4" class="box"></td>
+								<td data-column="1" data-row="4" class="box"></td>
+								<td data-column="2" data-row="4" class="box"></td>
+								<td data-column="3" data-row="4" class="box"></td>
+								<td data-column="4" data-row="4" class="box"></td>
+								<td data-column="5" data-row="4" class="box"></td>
+								<td data-column="6" data-row="4" class="box"></td>
+							</tr>
+							<tr>
+								<td data-column="0" data-row="5" class="box"></td>
+								<td data-column="1" data-row="5" class="box"></td>
+								<td data-column="2" data-row="5" class="box"></td>
+								<td data-column="3" data-row="5" class="box"></td>
+								<td data-column="4" data-row="5" class="box"></td>
+								<td data-column="5" data-row="5" class="box"></td>
+								<td data-column="6" data-row="5" class="box"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="p2-score">0</div>
+				<div class="clear"></div>
+			</div>
+			<div id="footer">
+				<p>Palaa Aurinkoon in 2014</p>
+			</div>
+		</div>
+		<div id="chat">
+			<p>Chat</p>
+			<p id="chatlog"></p>
+			<input type="text" id="message_input" disabled="disabled" />
+		</div>
+	</body>
+</html>

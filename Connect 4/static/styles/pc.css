@@ -1,0 +1,121 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FFFFFF;
+	border: 1px solid #0066FF;
+	font: normal 12px "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+	color: #0066FF;
+	left: 50%;
+	margin-left: -435px;
+	margin-top: 15px;
+	padding: 15px 15px 0 15px;
+	position: absolute;
+	width: 870px;
+}
+
+img.pub {
+	float: right;
+}
+
+h1.title {
+	float: left;
+	text-align: center;
+}
+
+#game {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 550px;
+}
+
+.p1-score, .p2-score  {
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	border: 2px solid #ccc;
+	width: 45px;
+	height: 45px;
+	padding: 5px;
+	text-align: center;
+	vertical-align: center;
+	float: left;
+	margin-top: 15px;
+}
+
+.p1-score {
+	background-color: #FFC333;
+}
+
+.p2-score {
+	background-color: #FB6B5B;
+}
+
+#board {
+	margin-top: 15px;
+	float: left;
+}
+
+tbody {
+	padding: 5px;
+}
+
+td {
+	padding: 5px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+
+.box {
+	border: 2px solid #CCCCCC;
+	width: 45px;
+	background-color: #CCCCCC;
+	height: 45px;
+	padding: 5px;
+}
+
+#countdown {
+	padding: 5px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	border: 2px solid #CCCCCC;
+	width: 45px;
+	background-color: #0066FF;
+	height: 45px;
+	margin: 15px auto 0 auto;
+	color: #FFFFFF;
+}
+
+#chat {
+	bottom: 10px;
+	right: 10px;
+	position: fixed;
+}
+
+#chatlog {
+	background-color: #FFFFFF;
+	border: 1px solid #0066FF;
+	height: 300px;
+	padding: 10px;
+	white-space: nowrap;
+	overflow: auto;
+	width: 220px;
+}
+
+#message_input {
+	height: 25px;
+	width: 238px;
+}
+
+#footer {
+	text-align: left;
+}
+
+.clear {
+	clear: both;
+}

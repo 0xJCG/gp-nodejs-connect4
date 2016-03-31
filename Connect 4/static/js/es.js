@@ -1,0 +1,10 @@
+var connected = 'Conectado. Esperando a otro jugador.';
+var disconnected = 'Tu oponente se ha desconectado.';
+var playersConnectedYourTurn = 'Jugadores conectados. Tu turno.';
+var playersConnectedNotYourTurn = 'Jugadores conectados. Turno del oponente.';
+var yourTurn = 'Tu turno.';
+var notYourTurn = 'Turno del oponente.';
+var youWin = 'Has ganado. Turno del oponente.';
+var youLose = 'Has perdido. Tu turno.';
+var tie = 'Empate.';
+var inactive = 'Has estado inactivo. Por favor, recarga.';
